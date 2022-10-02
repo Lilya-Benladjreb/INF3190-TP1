@@ -26,3 +26,34 @@
     background-color: rgba(217, 133, 164, 0.95);
 }
 
+/* Formulaire de plainte */
+input[type=text], textarea {
+    background-color: rgb(240, 181, 181);
+    width: 100%;
+    padding: 12 px;
+    border: 2px #a39e9e;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin: 12px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgba(217, 133, 164, 0.95);
+    color: white;
+    font-weight: bold;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #8e8b8b;
+}
+
+.formulaireplainte {
+    background-color: rgb(240, 235, 227);
+    padding: 30px;
+    border-radius: 4px;
+}
