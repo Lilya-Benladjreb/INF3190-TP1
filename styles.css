@@ -26,16 +26,33 @@
     background-color: rgba(217, 133, 164, 0.95);
 }
 
+/* Entête */
+h1,h2 {
+    background-color: rgb(167, 204, 178);
+    padding: 30px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
 /* Formulaire de plainte */
+
 input[type=text], textarea {
     background-color: rgb(240, 181, 181);
     width: 100%;
     padding: 12 px;
-    border: 2px #a39e9e;
+    border: 4px #a39e9e;
     border-radius: 6px;
     box-sizing: border-box;
     margin: 12px;
     resize: vertical;
+}
+
+textarea {
+    resize: none;
 }
 
 input[type=submit] {
@@ -55,5 +72,36 @@ input[type=submit]:hover {
 .formulaireplainte {
     background-color: rgb(240, 235, 227);
     padding: 30px;
+}
+
+#coffee-ordi {
+    position: relative;
+    float: right;
+    width: 100%;
+}
+
+.splitscreen {
+    width: 100%;
+    display: flex;
+}
+
+.splitscreen div:first-child {
+    margin: auto;
+}
+
+.sitenavigation {
+    position: relative;
+    float: left;
+    background-color: rgb(167, 204, 178);
+    padding: 12px 20px;
+    width: 100%;
+}
+
+.sitenavigation a {
+    background-color: rgb(240, 235, 227);
+    color: black;
+    text-decoration: none;
+    display: block;
     border-radius: 4px;
+    
 }
