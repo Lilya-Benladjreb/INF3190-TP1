@@ -1,12 +1,14 @@
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 
 /* Menu de navigation entre les sections */
 .menunav {
     background-color: rgb(240, 181, 181);
     overflow: hidden;
-
+    width: 100%;
 }
 
 .menunav a {
@@ -27,15 +29,25 @@
 }
 
 /* Entête */
-h1,h2 {
+
+.entete{
     background-color: rgb(167, 204, 178);
     padding: 30px;
-    margin: 0px;
 }
 
-h2 {
+.entete h2 {
+    margin-top: 15px;
     font-size: 20px;
+}
 
+h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+h4 {
+    margin-top: 15px;
+    font-size: 15px;
 }
 
 /* Formulaire de plainte */
@@ -45,7 +57,7 @@ input[type=text], textarea {
     width: 100%;
     padding: 12 px;
     border: 4px #a39e9e;
-    border-radius: 6px;
+    border-radius: 4px;
     box-sizing: border-box;
     margin: 12px;
     resize: vertical;
@@ -61,7 +73,7 @@ input[type=submit] {
     font-weight: bold;
     padding: 12px 20px;
     border: none;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -103,5 +115,8 @@ input[type=submit]:hover {
     text-decoration: none;
     display: block;
     border-radius: 4px;
-    
+}
+
+.sitenavigation a:hover {
+    background-color: #a39e9e;
 }
