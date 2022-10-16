@@ -3,6 +3,11 @@
     margin: 0%;
 }
 
+.restoname {
+    font-weight: bold;
+    color: rgba(217, 133, 164, 0.95);
+}
+
 /* ------- Menu de navigation entre les sections ------- */
 .menunav {
     background-color: rgb(240, 181, 181);
@@ -48,6 +53,8 @@ h4 {
     margin-top: 15px;
     font-size: 15px;
 }
+
+/* ------- FIN Menu de navigation entre les sections ------- */
 
 /* ------- Page d'acceuil ------- */
 
@@ -103,6 +110,56 @@ h4 {
 .joindreequipe h2 {
     padding: 20px;
 }
+/* ------- FIN Page d'acceuil ------- */
+
+/* ------- Recettes Populaires ------- */
+
+.description {
+    background-color: rgb(240, 235, 227);
+    padding: 30px;
+}
+
+.poulet-pesto {
+    background-color: rgb(240, 235, 227);
+    padding: 20px; 
+}
+
+.poulet-pesto h3 {
+    margin: 12px;
+}
+
+.poulet-pesto img {
+    width: 45%;
+    display: grid;
+    float: right;
+    border-radius: 6px;
+    max-height: 252px;
+    max-width: 490px;
+    margin-right: 3%;
+}
+
+.poulet-pesto ul {
+    background-color: rgba(179, 166, 171, 0.965);
+    width: 45%;
+    display: grid;
+    margin-left: 12px;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.poulet-pesto ol {
+    background-color: rgb(167, 204, 178);
+    width: 92%;
+    display: grid;
+    border-radius: 6px;
+    margin-left: 12px;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+/* ------- FIN Recettes Populaires ------- */
 
 /* ------- Formulaire de plainte ------- */
 
