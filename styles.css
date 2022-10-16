@@ -1,10 +1,9 @@
 * {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0%;
-    padding: 0%;
 }
 
-/* Menu de navigation entre les sections */
+/* ------- Menu de navigation entre les sections ------- */
 .menunav {
     background-color: rgb(240, 181, 181);
     overflow: hidden;
@@ -50,7 +49,62 @@ h4 {
     font-size: 15px;
 }
 
-/* Formulaire de plainte */
+/* ------- Page d'acceuil ------- */
+
+.equipe {
+    background-color: rgb(240, 235, 227);
+}
+
+.equipe h2 {
+    padding: 20px;
+}
+
+.equipe p {
+    padding: 20px;
+}
+
+.equipe ul {
+    background-color: rgba(179, 166, 171, 0.965);
+    width: 22%;
+    display: grid;
+    margin-left: 12px;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.equipe a {
+    color: #000;
+    margin: 6px;
+}
+
+.membres {
+    background-color: rgba(179, 166, 171, 0.965);
+    display: grid;
+    float:left;
+}
+
+.membres img {
+    width: 33%;
+    display: grid;
+    float: right;
+    border-radius: 6px;
+    margin-left: 12px;
+}
+
+#Aniatitre, #Aniades, #Ameytitre, #Ameydes, #Enolatitre, #Enolades{
+    background-color: rgb(240, 235, 227);
+}
+
+.joindreequipe {
+    background-color: rgb(167, 204, 178);
+}
+
+.joindreequipe h2 {
+    padding: 20px;
+}
+
+/* ------- Formulaire de plainte ------- */
 
 input[type=text], textarea {
     background-color: rgb(240, 181, 181);
@@ -120,3 +174,4 @@ input[type=submit]:hover {
 .sitenavigation a:hover {
     background-color: #a39e9e;
 }
+
