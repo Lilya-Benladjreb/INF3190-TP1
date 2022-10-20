@@ -244,6 +244,28 @@ h4 {
 
 /* ------- FIN Recettes Populaires ------- */
 
+/* ------- Partenaires ------- */
+
+.construction {
+    background-color: rgb(240, 235, 227);
+    padding: 12px;
+}
+
+.construction p {
+    margin: 12px;
+    text-align: center;
+}
+
+.construction img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    height: 300px;
+}
+
+/* ------- FIN Partenaires ------- */
+
 /* ------- Formulaire de plainte ------- */
 
 input[type=text], textarea {
